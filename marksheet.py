@@ -1,22 +1,21 @@
-institute=input("enter name of the institute: ")
-name=input("enter name of the student: ")
-reg_no=input("enter the registration number of the student: ")
-course=input("enter the course: ")
-maths=float(input("enter marks obtained in maths :"))
-physics=float(input("enter marks obtained in physics: "))
-civil=float(input("enter marks obtained in civil: "))
-cs =float(input("enter marks obtained in cs: "))
-bme=float(input("enter marks obtained in bme: "))
-practical1=float(input("enter marks obtained in practical 1: "))
-practical2=float(input("enter marks obtained in practical 2: "))
-practical3=float(input("enter marks obtained in practical 3: "))
+institute=input("ENTER THE NAME OF THE INSTITUTE : ")
+name=input("ENTER THE NAME OF THE STUDENT : ")
+reg_no=input("ENTER THE REGISTRATION NUMBER :  ")
+maths=float(input("ENTER MARKS OBTAINED IN maths :"))
+physics=float(input("ENTER MARKS OBTAINED IN physics: "))
+civil=float(input("ENTER MARKS OBTAINED IN civil: "))
+cs =float(input("ENTER MARKS OBTAINED IN cs: "))
+bme=float(input("ENTER MARKS OBTAINED IN BME: "))
+practical1=float(input("ENTER MARKS OBTAINED IN practical 1: "))
+practical2=float(input("ENTER MARKS OBTAINED IN practical 2: "))
+practical3=float(input("ENTER MARKS OBTAINED IN practical 3: "))
 grand_total=maths+physics+civil + cs + bme + practical1+practical2+practical3
 
 
 
 
 print(f'''                           \t{institute}              
-         Name={name}                                       Course={course}
+         Name={name}                                       Course= B.TECH
          Reg. No={reg_no}
  
           subject name        subject code                  Max. Marks             Marks Obtained          
