@@ -50,3 +50,4 @@ elif result >35 and result < 45 :
   print('Grade = E')
 else:
   print("fail")
+print("-------------Press ENTER  to exit !----------------")
